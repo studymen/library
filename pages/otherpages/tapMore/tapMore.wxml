@@ -1,0 +1,58 @@
+<!--pages/tapMore/tapMore.wxml-->
+<!-- 更多 -->
+
+<scroll-view class="more" scroll-y='true'>
+<!-- 这里是内容区域 -->
+<view class="content-info-list">
+  <view class="list-inner">
+    <view class="list-item" hover-class="blue">
+      <view class="iconfont icon-shu" style="color:blue;font-size:70rpx" bindtap="chaoxing" ></view>
+      <view>超星电子书</view>
+    </view>
+    <view class="list-item" hover-class="blue">
+      <view class="iconfont icon-tushuqikan"  style="color:blue;font-size:70rpx" bindtap="qikan"></view>
+      <view>超星期刊</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view class="iconfont icon-jiangshi"  style="color:blue;font-size:70rpx" bindtap="jiangtan"></view>
+      <view>超星名师讲坛</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-kaoshi"  style="color:blue;font-size:70rpx" bindtap="zhongke"></view>
+      <view>中科考试库</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-kaoshianpai"  style="color:blue;font-size:70rpx" bindtap="yinfu"></view>
+      <view>银符考试库</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-shipin"  style="color:blue;font-size:70rpx" bindtap='video'></view>
+      <view>软件通视频</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-yingyu"  style="color:blue;font-size:70rpx"  bindtap="English"></view>
+      <view>环球英语</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-xingbiao"  style="color:blue;font-size:70rpx"  bindtap="changxiang"></view>
+      <view>畅想之星</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-yanjiusheng"  style="color:blue;font-size:70rpx"  bindtap="guoyan"></view>
+      <view>国研网</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-tingshu"  style="color:blue;font-size:70rpx"  bindtap="listening"></view>
+      <view>新语听书</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-tuwenzixun"  style="color:blue;font-size:70rpx" bindtap="huiyiphoto"></view>
+      <view>汇尹网专业图文</view>
+    </view>
+    <view class="list-item"hover-class="blue">
+      <view  class="iconfont .icon-huohu"  style="color:blue;font-size:70rpx"  bindtap="yihu"></view>
+      <view>翼狐设计学习库资源介绍</view>
+    </view>
+  </view>
+</view>
+</scroll-view>

@@ -1,0 +1,54 @@
+<!--pages/otherpages/bookDetailt/bookDetailt.wxml-->
+<scroll-view class="content-info" scroll-y="true">
+<!-- wx8571e1847d2fc5e6 -->
+  <!-- 搜索 -->
+  <view class='page_row' bindtap="tapLandBook">
+    <view class="search">
+      <view class="df search_arr">
+        <icon class="searchcion" size='20' type='search'></icon>
+        <input class="" disabled placeholder="请输入图书名称" value="{{searchValue}}"/>
+      </view>
+    </view>
+    
+  </view>
+  <!-- 导航 -->
+  <view class="banner">
+    <swiper class='bannerSwiper' autoplay="true" previous-margin="54rpx" next-margin='54rpx' indicator-dots="true" indicator-color='#B5B5B5' indicator-active-color='#fff' interval='3000' duration='500' bindchange='onChange' circular='true'>
+        <block wx:for="{{banner}}"  wx:key="index">
+          <swiper-item>
+            <image class="{{index==xindex?'imageBanner':'imageBanner_small'}}" data-index="{{index}}" data-item="item" src="{{item}}"></image>
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+
+<!--  -->
+  <view >
+    <view class="tabView " id="tabs">
+      <view class="iconfont .icon-erweima"  style="color:blue;font-size:80rpx" bindtap="tapLandBook"></view>
+      <view class="iconfont .icon-jiezhengshenqing"  style="color:blue;font-size:80rpx" bindtap="tapLandRead"></view>
+      <view class="iconfont .icon-gengduo"  style="color:blue;font-size:80rpx" bindtap="tapMore"></view>
+    </view> 
+    <view class="tabView-item " id="tabs">
+    <view bindtap="tapLandBook" class="a">我要借书</view>
+    <view bindtap="tapLandRead" class="b">我的借阅</view>
+    <view bindtap="tapMore" class="c">更多</view>
+  </view>
+  </view>
+  <!-- 图书内容 -->
+<view class="books">
+  <view class="books-item" wx:for="{{2}}" bindtap="booksTap" wx:key="index">
+    <view class="books-item-img">
+      <image src="/img/01.PNG"></image>
+    </view>
+   <view class="books-item-author">
+      <text>馆藏分布</text>
+      <view class="author">
+      <text>地图册{{item+1}}</text>
+      </view>
+   </view>
+  </view>
+</view>
+</scroll-view>
+
+

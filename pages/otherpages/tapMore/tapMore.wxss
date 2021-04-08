@@ -1,0 +1,55 @@
+/* pages/tapMore/tapMore.wxss */
+/* pages/web/index.wxss */
+@import '../../../download/iconfont.wxss';
+.page-section-gap{
+  box-sizing: border-box;
+  padding: 0 30rpx;
+}
+.content-info-slide image{
+  width: 100%;
+  height: 100%;
+}
+.swiper{
+  margin: 20rpx;
+}
+
+.content-info-slide {
+  border-radius: 20rpx;
+  overflow:hidden;
+}
+
+.content-info-list{
+  font-size: 11pt;
+  margin-bottom: 20rpx;
+}
+.list-item:hover-class{
+  color: grey;
+}
+
+.content-info-list>.list-inner{
+display: flex;
+flex-wrap: wrap;
+margin: 50rpx 20rpx;
+}
+.content-info-list>.list-inner>.list-item{
+  flex: 1;
+  width: 200rpx;
+  margin:0 auto;
+  height: 200rpx;
+  background-color: white;
+  border:1rpx  solid 0xffF1EFEF;
+}
+.content-info-list>.list-inner>.list-item>image{
+  display: block;
+  width: 200rpx;
+  height: 100rpx;
+  margin:0 auto;
+  border-radius: 35%;
+  background-color: #fff;
+}
+.content-info-list>.list-inner>.list-item>view{
+  width: 220rpx;
+ margin: 10rpx auto;
+ font-size: 8pt;
+ text-align: center;
+}

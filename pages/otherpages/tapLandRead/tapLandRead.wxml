@@ -1,0 +1,7 @@
+<!--pages/tapLandRead/tapLandRead.wxml-->
+<!-- 我的借阅 -->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="http://www.gd-chaoxing.cn:8586/html/borrow/borrow.html"></web-view>
+  </view>
+</view>

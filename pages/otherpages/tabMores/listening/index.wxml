@@ -1,0 +1,5 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="http://jt.wx.xinyulib.com.cn/lib/m/index/" ></web-view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+
+<view class="content">
+  <swiper current="{{item}}" bindtap="changTab">
+    <!-- 图书--><swiper-item><include src="../index/bookDetailt.wxml"></include></swiper-item>
+    <swiper-item><include src="../index/my.wxml"></include></swiper-item>
+  </swiper>
+</view>
+<!-- 底部导航 -->
+  <view class="nav-bottom">
+    <view class="nav-bottom-item " data-item="0">
+      <i wx:if="{{state=='choose'}}" class="iconfont icon-shu1 {{tab==0?'active':''}}" data-item="0"  style="color:blue;font-size:50rpx"></i>
+     <i wx:else class="iconfont icon-shu2 {{tab==0?'active':''}}"  style="color:blue;font-size:50rpx" bindtap="book" ></i>
+      <view>图书</view>
+    </view>
+    <view class="nav-bottom-item {{tab==1?'active':''}}" data-item="0" >
+     <i class="iconfont .icon-homepage" data-item="1" style="color:blue;font-size:40rpx" bindtap="my"></i>
+      <view>个人</view>
+    </view>
+  </view>

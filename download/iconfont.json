@@ -1,0 +1,93 @@
+{
+  "id": "2468225",
+  "name": "book",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "954426",
+      "name": "火狐",
+      "font_class": "huohu",
+      "unicode": "e72e",
+      "unicode_decimal": 59182
+    },
+    {
+      "icon_id": "1582093",
+      "name": "讲师",
+      "font_class": "jiangshi",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "2129721",
+      "name": "图书期刊",
+      "font_class": "tushuqikan",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "2380661",
+      "name": "书",
+      "font_class": "shu",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "4450105",
+      "name": "图文咨询",
+      "font_class": "tuwenzixun",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "6359023",
+      "name": "研究生",
+      "font_class": "yanjiusheng",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "7964499",
+      "name": "考试",
+      "font_class": "kaoshi",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "11200588",
+      "name": "听书",
+      "font_class": "tingshu",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "14626463",
+      "name": "星标",
+      "font_class": "xingbiao",
+      "unicode": "e6e0",
+      "unicode_decimal": 59104
+    },
+    {
+      "icon_id": "18211394",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e7b3",
+      "unicode_decimal": 59315
+    },
+    {
+      "icon_id": "18486631",
+      "name": "考试安排",
+      "font_class": "kaoshianpai",
+      "unicode": "e7be",
+      "unicode_decimal": 59326
+    },
+    {
+      "icon_id": "20478182",
+      "name": "英语",
+      "font_class": "yingyu",
+      "unicode": "e7d6",
+      "unicode_decimal": 59350
+    }
+  ]
+}

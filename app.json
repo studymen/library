@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index", 
+    "pages/otherpages/play/play",
+    "pages/otherpages/profile/profile",
+    "pages/otherpages/search/search",
+    "pages/otherpages/tabMores/chaoxing/index",
+    "pages/otherpages/tabMores/qikan/index",
+    "pages/otherpages/tabMores/jiangtan/index",
+    "pages/otherpages/tabMores/zhongke/index",
+    "pages/otherpages/tabMores/yinfu/index",
+    "pages/otherpages/tabMores/video/index",
+    "pages/otherpages/tabMores/English/index",
+    "pages/otherpages/tabMores/changxiang/index",
+   "pages/otherpages/tabMores/guoyan/index",
+   "pages/otherpages/tabMores/listening/index",
+   "pages/otherpages/tabMores/huiyiphoto/index",
+  "pages/otherpages/tabMores/yihu/index"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "广科图图",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

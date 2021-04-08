@@ -1,0 +1,7 @@
+<!--pages/tapLandBook/tapLandBook.wxml-->
+<!-- 我的借书 -->
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="http://www.gd-chaoxing.cn:8586/sms/opac/search/showiphoneSearch.action"></web-view>
+  </view>
+</view>

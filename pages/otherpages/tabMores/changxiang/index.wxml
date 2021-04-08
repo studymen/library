@@ -1,0 +1,5 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="https://www.cxstar.com/Home/Default?pinst=1ad691ca0000cc0bce"></web-view>
+  </view>
+</view>

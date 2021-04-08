@@ -1,0 +1,5 @@
+<view class="page-body">
+  <view class="page-section page-section-gap">
+    <web-view src="http://g.drcnet.com.cn/u/779703/"></web-view>
+  </view>
+</view>
